@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@319&display=swap');
+
+body{
+  font-family: 'Source Sans 6', sans-serif;
+
+}
+
+.navbar-brand{
+  color: black;
+}
+.nav-link{
+  color: black;
+}
+#pizza img{
+  object-fit: cover;
+  overflow: hidden;
+  max-height: 15rem !important;
+}
+#pizza .card{
+   overflow: hidden;
+ }
+#pizza .card:hover > h5{
+  transform: scale(1.15);
+  transition-duration: .5s;
+}
+ 
+ 
+#pizza .card:hover > img{
+  transition-duration: .35s;
+  transform: scale(1.1);  
+}
+
+ .col-md-1{
+  text-align: center;
+
+ }
+.col-md-1 i.fa{
+  font-size: 25px ;
+   transition-duration: .1s;
+  cursor: pointer;
+  
+}
+ 
+.col-md-1 i.fa:hover{
+  font-size: 28px ;
+  color: firebrick;
+  cursor: pointer;
+
+}
+.signup input{
+   margin: 2rem 0px;
+  }
+.login input{
+  margin: 1rem 0px;
+}
+ 
+.lds-dual-ring {
+  margin-right: 20px !important;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0px;
+  border-radius: 50%;
+  border: 6px solid rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0) transparent rgb(187, 0, 0) transparent;
+  animation: lds-dual-ring 0.5s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+ 
+.mycartitems{
+  margin-bottom: 20px;
+  background-color: black;
+  color: rgb(240, 240, 240);
+  padding: 35px 30px;
+}
+.orderdetail{
+  text-align: left;
+}
+.shopbutton{
+  float: right;
+  cursor: default;
+  color: black;
+  background-color: white;
+  margin-right: 50px;
+ }
+ .filters{
+   border-radius: 50px;
+ }
+
+ .admindiv{
+   
+   background-color: black;
+  padding: 0px 0px;
+  }
+ .admindiv ul{
+  display: flex;
+  list-style-type: none;
+  color: white !important;
+  padding: 0px 0px !important;
+  margin: 0px 0px;
+  font-size: 20px;
+  text-decoration: none !important;
+  justify-content: space-evenly;
+   
+ }
+ .admindiv a{
+   color: white !important;
+   text-decoration: none !important;
+ }
+ .admindiv li{
+    padding: 0px;
+ } 
+ 
+ 
+.admindiv ul li a:hover{
+  transition-duration: .3s;
+  color: rgb(5, 82, 184) !important;
+} 
+ 
